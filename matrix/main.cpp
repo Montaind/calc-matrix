@@ -97,3 +97,5 @@ int main() {
 		cout << "Результат вычитания матриц: " << endl;
 		coutarr(arr2, n, m);
 	}
+
+	cout << qq
