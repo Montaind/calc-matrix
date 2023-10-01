@@ -54,7 +54,7 @@ void plusik(double arr[][10], double arr1[][10],double arr2[][10], int n, int m,
 		}
 	}
 	else {
-		cout << "Ìàòðèöû íå ðàâíû ïî ðàçìåðàì ìåæäó ñîáîé!" << endl;
+		cout << "Матрицы не равны между собой!" << endl;
 	}
 }
 
@@ -67,6 +67,6 @@ void min(double arr[][10], double arr1[][10], double arr2[][10], int n, int m, i
 		}
 	}
 	else {
-		cout << "Ìàòðèöû íå ðàâíû ïî ðàçìåðàì ìåæäó ñîáîé!" << endl;
+		cout << "Матрицы не равны между собой!" << endl;
 	}
 }
