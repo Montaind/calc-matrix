@@ -22,7 +22,7 @@ void coutarr(double arr[][10], int n, int m) {
 void enter(double arr[][10], int n, int m) {
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
-			cout << "Ââåäèòå " << i << j << " ıëåìåíò: ";
+			cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ " << i << j << " ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚: ";
 			cin >> arr[i][j];
 		}
 	}
@@ -54,7 +54,7 @@ void plusik(double arr[][10], double arr1[][10],double arr2[][10], int n, int m,
 		}
 	}
 	else {
-		cout << "Ìàòğèöû íå ğàâíû ïî ğàçìåğàì ìåæäó ñîáîé!" << endl;
+		cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã» Ã­Ã¥ Ã°Ã Ã¢Ã­Ã» Ã¯Ã® Ã°Ã Ã§Ã¬Ã¥Ã°Ã Ã¬ Ã¬Ã¥Ã¦Ã¤Ã³ Ã±Ã®Ã¡Ã®Ã©!" << endl;
 	}
 }
 
@@ -67,6 +67,6 @@ void min(double arr[][10], double arr1[][10], double arr2[][10], int n, int m, i
 		}
 	}
 	else {
-		cout << "Ìàòğèöû íå ğàâíû ïî ğàçìåğàì ìåæäó ñîáîé!" << endl;
+		cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã» Ã­Ã¥ Ã°Ã Ã¢Ã­Ã» Ã¯Ã® Ã°Ã Ã§Ã¬Ã¥Ã°Ã Ã¬ Ã¬Ã¥Ã¦Ã¤Ã³ Ã±Ã®Ã¡Ã®Ã©!" << endl;
 	}
 }
