@@ -1,3 +1,5 @@
 ﻿  main.cpp
-C:\Users\user\source\repos\matrix\matrix\main.cpp(9,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  matrix.vcxproj -> C:\Users\user\source\repos\matrix\x64\Debug\matrix.exe
+C:\Users\user\Desktop\last\matrix\main.cpp(9,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\last\matrix\main.cpp(7,12): fatal  error C1075: "{": не найдена несоответствующая лексема
+  Matrix.cpp
+  Создание кода...

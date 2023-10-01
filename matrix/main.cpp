@@ -66,7 +66,7 @@ int main() {
 		cout << "Для этого мы должны заполнить еще одну матрицу!Заполнить: 1) Вручную; 2) Рандомно: ";
 		cin >> x;
 		if (x == 2) {
-			randenter(arr1,n,m);
+			randenter(arr1, n, m);
 			cout << "Вот заполненая матрица 2: " << endl;
 			coutarr(arr1, n, m);
 		}
@@ -75,7 +75,7 @@ int main() {
 			cout << "Вот заполненая матрица 2: " << endl;
 			coutarr(arr1, n, m);
 		}
-		plusik(arr, arr1, arr2,n,m,n,m);
+		plusik(arr, arr1, arr2, n, m, n, m);
 		cout << "Результат сложения матриц: " << endl;
 		coutarr(arr2, n, m);
 	}
@@ -97,3 +97,4 @@ int main() {
 		cout << "Результат вычитания матриц: " << endl;
 		coutarr(arr2, n, m);
 	}
+}
